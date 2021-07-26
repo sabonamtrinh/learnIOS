@@ -7,15 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE559E5426AE915A00361C38 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E5226AE915A00361C38 /* EmployeeTableViewCell.swift */; };
+		CE559E5526AE915A00361C38 /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE559E5326AE915A00361C38 /* EmployeeTableViewCell.xib */; };
+		CE559E5826AE9A9500361C38 /* DepartmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E5626AE9A9500361C38 /* DepartmentTableViewCell.swift */; };
+		CE559E5926AE9A9500361C38 /* DepartmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE559E5726AE9A9500361C38 /* DepartmentTableViewCell.xib */; };
+		CE559E5C26AE9BF000361C38 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E5A26AE9BF000361C38 /* EmployeeViewController.swift */; };
+		CE559E5D26AE9BF000361C38 /* EmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE559E5B26AE9BF000361C38 /* EmployeeViewController.xib */; };
+		CE559E5F26AEB1FF00361C38 /* NSDate+Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E5E26AEB1FF00361C38 /* NSDate+Extesion.swift */; };
 		CE5A535A2673C28300DB4964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A53592673C28300DB4964 /* AppDelegate.swift */; };
 		CE5A535C2673C28300DB4964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A535B2673C28300DB4964 /* SceneDelegate.swift */; };
 		CE5A535E2673C28300DB4964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A535D2673C28300DB4964 /* ViewController.swift */; };
 		CE5A53612673C28300DB4964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5A535F2673C28300DB4964 /* Main.storyboard */; };
 		CE5A53632673C28700DB4964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5A53622673C28700DB4964 /* Assets.xcassets */; };
 		CE5A53662673C28700DB4964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5A53642673C28700DB4964 /* LaunchScreen.storyboard */; };
+		CE5A536F2673C3D500DB4964 /* ScreenBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A536D2673C3D500DB4964 /* ScreenBViewController.swift */; };
+		CE5A53702673C3D500DB4964 /* ScreenBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5A536E2673C3D500DB4964 /* ScreenBViewController.xib */; };
+		CE697E3E26A566E600782A96 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E3C26A566E600782A96 /* LearnViewController.swift */; };
+		CE697E3F26A566E600782A96 /* LearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E3D26A566E600782A96 /* LearnViewController.xib */; };
+		CE697E4226A6B94D00782A96 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E4126A6B94D00782A96 /* ProfileModel.swift */; };
+		CE697E4526A6B9AC00782A96 /* TableMultipleCellTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E4326A6B9AC00782A96 /* TableMultipleCellTypesViewController.swift */; };
+		CE697E4626A6B9AC00782A96 /* TableMultipleCellTypesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E4426A6B9AC00782A96 /* TableMultipleCellTypesViewController.xib */; };
+		CE697E4926A6BE9D00782A96 /* ServerData.json in Resources */ = {isa = PBXBuildFile; fileRef = CE697E4826A6BE9D00782A96 /* ServerData.json */; };
+		CE697E4B26A6BF6100782A96 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E4A26A6BF6100782A96 /* ProfileViewModel.swift */; };
+		CE697E5326A6C1D700782A96 /* NamePictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E5126A6C1D700782A96 /* NamePictureTableViewCell.swift */; };
+		CE697E5426A6C1D700782A96 /* NamePictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E5226A6C1D700782A96 /* NamePictureTableViewCell.xib */; };
+		CE697E5726A6C20000782A96 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E5526A6C20000782A96 /* FriendTableViewCell.swift */; };
+		CE697E5826A6C20000782A96 /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E5626A6C20000782A96 /* FriendTableViewCell.xib */; };
+		CE697E6126A6C23200782A96 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E5F26A6C23200782A96 /* EmailTableViewCell.swift */; };
+		CE697E6226A6C23200782A96 /* EmailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E6026A6C23200782A96 /* EmailTableViewCell.xib */; };
+		CE697E6526A6C24700782A96 /* AttributeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E6326A6C24700782A96 /* AttributeTableViewCell.swift */; };
+		CE697E6626A6C24700782A96 /* AttributeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E6426A6C24700782A96 /* AttributeTableViewCell.xib */; };
+		CE697E6926A6D98800782A96 /* AboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E6726A6D98800782A96 /* AboutTableViewCell.swift */; };
+		CE697E6A26A6D98800782A96 /* AboutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E6826A6D98800782A96 /* AboutTableViewCell.xib */; };
+		CE697E7526A87AED00782A96 /* SimpleCVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E7326A87AED00782A96 /* SimpleCVViewController.swift */; };
+		CE697E7626A87AED00782A96 /* SimpleCVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E7426A87AED00782A96 /* SimpleCVViewController.xib */; };
+		CE697E7926A8868500782A96 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E7726A8868500782A96 /* PictureCollectionViewCell.swift */; };
+		CE697E7A26A8868500782A96 /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E7826A8868500782A96 /* PictureCollectionViewCell.xib */; };
+		CE697E7E26A9162600782A96 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E7C26A9162600782A96 /* HeaderCollectionReusableView.swift */; };
+		CE697E7F26A9162600782A96 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E7D26A9162600782A96 /* HeaderCollectionReusableView.xib */; };
+		CE697EAF26AE688700782A96 /* DemoCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE697EAD26AE688700782A96 /* DemoCoreData.xcdatamodeld */; };
+		CE697EB626AE6B8700782A96 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EB026AE6B8700782A96 /* Employee+CoreDataClass.swift */; };
+		CE697EB726AE6B8700782A96 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EB126AE6B8700782A96 /* Employee+CoreDataProperties.swift */; };
+		CE697EB826AE6B8700782A96 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EB226AE6B8700782A96 /* Person+CoreDataClass.swift */; };
+		CE697EB926AE6B8700782A96 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EB326AE6B8700782A96 /* Person+CoreDataProperties.swift */; };
+		CE697EBA26AE6B8700782A96 /* Department+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EB426AE6B8700782A96 /* Department+CoreDataClass.swift */; };
+		CE697EBB26AE6B8700782A96 /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EB526AE6B8700782A96 /* Department+CoreDataProperties.swift */; };
+		CE697EBF26AE6C5500782A96 /* DemoCoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EBD26AE6C5500782A96 /* DemoCoreDataViewController.swift */; };
+		CE697EC026AE6C5500782A96 /* DemoCoreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697EBE26AE6C5500782A96 /* DemoCoreDataViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE559E5226AE915A00361C38 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		CE559E5326AE915A00361C38 /* EmployeeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTableViewCell.xib; sourceTree = "<group>"; };
+		CE559E5626AE9A9500361C38 /* DepartmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentTableViewCell.swift; sourceTree = "<group>"; };
+		CE559E5726AE9A9500361C38 /* DepartmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DepartmentTableViewCell.xib; sourceTree = "<group>"; };
+		CE559E5A26AE9BF000361C38 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		CE559E5B26AE9BF000361C38 /* EmployeeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeViewController.xib; sourceTree = "<group>"; };
+		CE559E5E26AEB1FF00361C38 /* NSDate+Extesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Extesion.swift"; sourceTree = "<group>"; };
 		CE5A53562673C28300DB4964 /* OT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5A53592673C28300DB4964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5A535B2673C28300DB4964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +72,41 @@
 		CE5A53622673C28700DB4964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5A53652673C28700DB4964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5A53672673C28700DB4964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5A536D2673C3D500DB4964 /* ScreenBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBViewController.swift; sourceTree = "<group>"; };
+		CE5A536E2673C3D500DB4964 /* ScreenBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenBViewController.xib; sourceTree = "<group>"; };
+		CE5A537226751B3300DB4964 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CE697E3C26A566E600782A96 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		CE697E3D26A566E600782A96 /* LearnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LearnViewController.xib; sourceTree = "<group>"; };
+		CE697E4126A6B94D00782A96 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		CE697E4326A6B9AC00782A96 /* TableMultipleCellTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableMultipleCellTypesViewController.swift; sourceTree = "<group>"; };
+		CE697E4426A6B9AC00782A96 /* TableMultipleCellTypesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableMultipleCellTypesViewController.xib; sourceTree = "<group>"; };
+		CE697E4826A6BE9D00782A96 /* ServerData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ServerData.json; sourceTree = "<group>"; };
+		CE697E4A26A6BF6100782A96 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		CE697E5126A6C1D700782A96 /* NamePictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamePictureTableViewCell.swift; sourceTree = "<group>"; };
+		CE697E5226A6C1D700782A96 /* NamePictureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NamePictureTableViewCell.xib; sourceTree = "<group>"; };
+		CE697E5526A6C20000782A96 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		CE697E5626A6C20000782A96 /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		CE697E5F26A6C23200782A96 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		CE697E6026A6C23200782A96 /* EmailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailTableViewCell.xib; sourceTree = "<group>"; };
+		CE697E6326A6C24700782A96 /* AttributeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeTableViewCell.swift; sourceTree = "<group>"; };
+		CE697E6426A6C24700782A96 /* AttributeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributeTableViewCell.xib; sourceTree = "<group>"; };
+		CE697E6726A6D98800782A96 /* AboutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewCell.swift; sourceTree = "<group>"; };
+		CE697E6826A6D98800782A96 /* AboutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutTableViewCell.xib; sourceTree = "<group>"; };
+		CE697E7326A87AED00782A96 /* SimpleCVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCVViewController.swift; sourceTree = "<group>"; };
+		CE697E7426A87AED00782A96 /* SimpleCVViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleCVViewController.xib; sourceTree = "<group>"; };
+		CE697E7726A8868500782A96 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE697E7826A8868500782A96 /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE697E7C26A9162600782A96 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		CE697E7D26A9162600782A96 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		CE697EAE26AE688700782A96 /* DemoCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoCoreData.xcdatamodel; sourceTree = "<group>"; };
+		CE697EB026AE6B8700782A96 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE697EB126AE6B8700782A96 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE697EB226AE6B8700782A96 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE697EB326AE6B8700782A96 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE697EB426AE6B8700782A96 /* Department+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE697EB526AE6B8700782A96 /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE697EBD26AE6C5500782A96 /* DemoCoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCoreDataViewController.swift; sourceTree = "<group>"; };
+		CE697EBE26AE6C5500782A96 /* DemoCoreDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCoreDataViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +120,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE559E5126AE913B00361C38 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE559E5226AE915A00361C38 /* EmployeeTableViewCell.swift */,
+				CE559E5326AE915A00361C38 /* EmployeeTableViewCell.xib */,
+				CE559E5626AE9A9500361C38 /* DepartmentTableViewCell.swift */,
+				CE559E5726AE9A9500361C38 /* DepartmentTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		CE5A534D2673C28300DB4964 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +150,11 @@
 		CE5A53582673C28300DB4964 /* OT */ = {
 			isa = PBXGroup;
 			children = (
+				CE697EAC26AE685A00782A96 /* ExampleCoreData */,
+				CE697E7226A87AA000782A96 /* CollectionView */,
+				CE697E4026A6B92A00782A96 /* MultipleCellTypes_TableView */,
+				CE697E3B26A566B700782A96 /* TableView */,
+				CE5A53712673F7E900DB4964 /* PassData */,
 				CE5A53592673C28300DB4964 /* AppDelegate.swift */,
 				CE5A535B2673C28300DB4964 /* SceneDelegate.swift */,
 				CE5A535D2673C28300DB4964 /* ViewController.swift */,
@@ -63,8 +162,106 @@
 				CE5A53622673C28700DB4964 /* Assets.xcassets */,
 				CE5A53642673C28700DB4964 /* LaunchScreen.storyboard */,
 				CE5A53672673C28700DB4964 /* Info.plist */,
+				CE5A537226751B3300DB4964 /* MyPlayground.playground */,
 			);
 			path = OT;
+			sourceTree = "<group>";
+		};
+		CE5A53712673F7E900DB4964 /* PassData */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A536D2673C3D500DB4964 /* ScreenBViewController.swift */,
+				CE5A536E2673C3D500DB4964 /* ScreenBViewController.xib */,
+			);
+			path = PassData;
+			sourceTree = "<group>";
+		};
+		CE697E3B26A566B700782A96 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				CE697E3C26A566E600782A96 /* LearnViewController.swift */,
+				CE697E3D26A566E600782A96 /* LearnViewController.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		CE697E4026A6B92A00782A96 /* MultipleCellTypes_TableView */ = {
+			isa = PBXGroup;
+			children = (
+				CE697E4C26A6C0C500782A96 /* Cell */,
+				CE697E4126A6B94D00782A96 /* ProfileModel.swift */,
+				CE697E4326A6B9AC00782A96 /* TableMultipleCellTypesViewController.swift */,
+				CE697E4426A6B9AC00782A96 /* TableMultipleCellTypesViewController.xib */,
+				CE697E4826A6BE9D00782A96 /* ServerData.json */,
+				CE697E4A26A6BF6100782A96 /* ProfileViewModel.swift */,
+			);
+			path = MultipleCellTypes_TableView;
+			sourceTree = "<group>";
+		};
+		CE697E4C26A6C0C500782A96 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE697E5126A6C1D700782A96 /* NamePictureTableViewCell.swift */,
+				CE697E5226A6C1D700782A96 /* NamePictureTableViewCell.xib */,
+				CE697E5526A6C20000782A96 /* FriendTableViewCell.swift */,
+				CE697E5626A6C20000782A96 /* FriendTableViewCell.xib */,
+				CE697E5F26A6C23200782A96 /* EmailTableViewCell.swift */,
+				CE697E6026A6C23200782A96 /* EmailTableViewCell.xib */,
+				CE697E6326A6C24700782A96 /* AttributeTableViewCell.swift */,
+				CE697E6426A6C24700782A96 /* AttributeTableViewCell.xib */,
+				CE697E6726A6D98800782A96 /* AboutTableViewCell.swift */,
+				CE697E6826A6D98800782A96 /* AboutTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE697E7226A87AA000782A96 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CE697E7B26A8868F00782A96 /* Cell */,
+				CE697E7326A87AED00782A96 /* SimpleCVViewController.swift */,
+				CE697E7426A87AED00782A96 /* SimpleCVViewController.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		CE697E7B26A8868F00782A96 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE697E7726A8868500782A96 /* PictureCollectionViewCell.swift */,
+				CE697E7826A8868500782A96 /* PictureCollectionViewCell.xib */,
+				CE697E7C26A9162600782A96 /* HeaderCollectionReusableView.swift */,
+				CE697E7D26A9162600782A96 /* HeaderCollectionReusableView.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE697EAC26AE685A00782A96 /* ExampleCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE559E5126AE913B00361C38 /* Cell */,
+				CE697EBC26AE6C2600782A96 /* CoreData */,
+				CE697EAD26AE688700782A96 /* DemoCoreData.xcdatamodeld */,
+				CE697EBD26AE6C5500782A96 /* DemoCoreDataViewController.swift */,
+				CE697EBE26AE6C5500782A96 /* DemoCoreDataViewController.xib */,
+				CE559E5A26AE9BF000361C38 /* EmployeeViewController.swift */,
+				CE559E5B26AE9BF000361C38 /* EmployeeViewController.xib */,
+				CE559E5E26AEB1FF00361C38 /* NSDate+Extesion.swift */,
+			);
+			path = ExampleCoreData;
+			sourceTree = "<group>";
+		};
+		CE697EBC26AE6C2600782A96 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE697EB026AE6B8700782A96 /* Employee+CoreDataClass.swift */,
+				CE697EB126AE6B8700782A96 /* Employee+CoreDataProperties.swift */,
+				CE697EB226AE6B8700782A96 /* Person+CoreDataClass.swift */,
+				CE697EB326AE6B8700782A96 /* Person+CoreDataProperties.swift */,
+				CE697EB426AE6B8700782A96 /* Department+CoreDataClass.swift */,
+				CE697EB526AE6B8700782A96 /* Department+CoreDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +322,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5A53662673C28700DB4964 /* LaunchScreen.storyboard in Resources */,
+				CE697E4926A6BE9D00782A96 /* ServerData.json in Resources */,
 				CE5A53632673C28700DB4964 /* Assets.xcassets in Resources */,
+				CE559E5926AE9A9500361C38 /* DepartmentTableViewCell.xib in Resources */,
+				CE697E3F26A566E600782A96 /* LearnViewController.xib in Resources */,
+				CE559E5526AE915A00361C38 /* EmployeeTableViewCell.xib in Resources */,
+				CE697E4626A6B9AC00782A96 /* TableMultipleCellTypesViewController.xib in Resources */,
+				CE697E5426A6C1D700782A96 /* NamePictureTableViewCell.xib in Resources */,
+				CE697EC026AE6C5500782A96 /* DemoCoreDataViewController.xib in Resources */,
+				CE697E6626A6C24700782A96 /* AttributeTableViewCell.xib in Resources */,
+				CE697E7A26A8868500782A96 /* PictureCollectionViewCell.xib in Resources */,
+				CE697E7626A87AED00782A96 /* SimpleCVViewController.xib in Resources */,
+				CE697E6226A6C23200782A96 /* EmailTableViewCell.xib in Resources */,
 				CE5A53612673C28300DB4964 /* Main.storyboard in Resources */,
+				CE697E7F26A9162600782A96 /* HeaderCollectionReusableView.xib in Resources */,
+				CE559E5D26AE9BF000361C38 /* EmployeeViewController.xib in Resources */,
+				CE697E6A26A6D98800782A96 /* AboutTableViewCell.xib in Resources */,
+				CE697E5826A6C20000782A96 /* FriendTableViewCell.xib in Resources */,
+				CE5A53702673C3D500DB4964 /* ScreenBViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +350,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE697EB726AE6B8700782A96 /* Employee+CoreDataProperties.swift in Sources */,
+				CE559E5F26AEB1FF00361C38 /* NSDate+Extesion.swift in Sources */,
+				CE559E5C26AE9BF000361C38 /* EmployeeViewController.swift in Sources */,
+				CE697E7E26A9162600782A96 /* HeaderCollectionReusableView.swift in Sources */,
+				CE697EB626AE6B8700782A96 /* Employee+CoreDataClass.swift in Sources */,
+				CE559E5426AE915A00361C38 /* EmployeeTableViewCell.swift in Sources */,
+				CE697E3E26A566E600782A96 /* LearnViewController.swift in Sources */,
+				CE697E5326A6C1D700782A96 /* NamePictureTableViewCell.swift in Sources */,
 				CE5A535E2673C28300DB4964 /* ViewController.swift in Sources */,
+				CE697E7526A87AED00782A96 /* SimpleCVViewController.swift in Sources */,
+				CE697EBA26AE6B8700782A96 /* Department+CoreDataClass.swift in Sources */,
 				CE5A535A2673C28300DB4964 /* AppDelegate.swift in Sources */,
+				CE697EAF26AE688700782A96 /* DemoCoreData.xcdatamodeld in Sources */,
+				CE697E4226A6B94D00782A96 /* ProfileModel.swift in Sources */,
+				CE697E6126A6C23200782A96 /* EmailTableViewCell.swift in Sources */,
+				CE559E5826AE9A9500361C38 /* DepartmentTableViewCell.swift in Sources */,
+				CE697EBF26AE6C5500782A96 /* DemoCoreDataViewController.swift in Sources */,
 				CE5A535C2673C28300DB4964 /* SceneDelegate.swift in Sources */,
+				CE697EB826AE6B8700782A96 /* Person+CoreDataClass.swift in Sources */,
+				CE697E4526A6B9AC00782A96 /* TableMultipleCellTypesViewController.swift in Sources */,
+				CE697EB926AE6B8700782A96 /* Person+CoreDataProperties.swift in Sources */,
+				CE697E5726A6C20000782A96 /* FriendTableViewCell.swift in Sources */,
+				CE697E6926A6D98800782A96 /* AboutTableViewCell.swift in Sources */,
+				CE697E4B26A6BF6100782A96 /* ProfileViewModel.swift in Sources */,
+				CE697E7926A8868500782A96 /* PictureCollectionViewCell.swift in Sources */,
+				CE697E6526A6C24700782A96 /* AttributeTableViewCell.swift in Sources */,
+				CE697EBB26AE6B8700782A96 /* Department+CoreDataProperties.swift in Sources */,
+				CE5A536F2673C3D500DB4964 /* ScreenBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42BJ859V33;
 				INFOPLIST_FILE = OT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42BJ859V33;
 				INFOPLIST_FILE = OT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -339,6 +579,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE697EAD26AE688700782A96 /* DemoCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE697EAE26AE688700782A96 /* DemoCoreData.xcdatamodel */,
+			);
+			currentVersion = CE697EAE26AE688700782A96 /* DemoCoreData.xcdatamodel */;
+			path = DemoCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE5A534E2673C28300DB4964 /* Project object */;
 }
