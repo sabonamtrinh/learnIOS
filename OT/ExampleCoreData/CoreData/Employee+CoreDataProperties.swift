@@ -9,7 +9,6 @@
 import Foundation
 import CoreData
 
-
 extension Employee {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Employee> {
@@ -87,7 +86,7 @@ extension Employee {
     static func fetchEmployeeByDepartment(name: String) -> [Employee] {
         let moc = AppDelegate.managedObjectContext
         let employeesFetch = NSFetchRequest<NSFetchRequestResult>(entityName: "Employee")
-        employeesFetch.predicate = NSPredicate(format: "department.name", name)
+        employeesFetch.predicate = NSPredicate(format: "department.name = %@", name)
         do {
             let fetchedEmployees = try moc?.fetch(employeesFetch) as! [Employee]
             return fetchedEmployees

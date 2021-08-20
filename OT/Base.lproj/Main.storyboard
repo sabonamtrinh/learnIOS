@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HqE-xC-bnq">
-                                <rect key="frame" x="0.0" y="88" width="414" height="358.5"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="298.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn IOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuD-kM-dJd">
                                         <rect key="frame" x="92.5" y="100" width="229.5" height="55.5"/>
@@ -36,10 +36,24 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="BRt-tj-jy8">
-                                <rect key="frame" x="20" y="446.5" width="374" height="415.5"/>
+                                <rect key="frame" x="20" y="386.5" width="374" height="475.5"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJk-ls-xHD">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="79"/>
+                                        <state key="normal" title="RxSwift" backgroundImage="choice1Background">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="handleRxSwiftButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oSc-EZ-eFI"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yr-W2-1Ma">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="89"/>
+                                        <rect key="frame" x="0.0" y="99" width="374" height="79.5"/>
                                         <state key="normal" title="Simple TableView" backgroundImage="choice1Background">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -53,7 +67,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mL3-Vi-xxN">
-                                        <rect key="frame" x="0.0" y="109" width="374" height="88.5"/>
+                                        <rect key="frame" x="0.0" y="198.5" width="374" height="79"/>
                                         <state key="normal" title="Multiple Cell Types TableView" backgroundImage="choice2Background">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -67,7 +81,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9F-JV-v9B">
-                                        <rect key="frame" x="0.0" y="217.5" width="374" height="89"/>
+                                        <rect key="frame" x="0.0" y="297.5" width="374" height="79"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <state key="normal" title="Simple CollectionView">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -82,7 +96,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQr-Ko-i1l">
-                                        <rect key="frame" x="0.0" y="326.5" width="374" height="89"/>
+                                        <rect key="frame" x="0.0" y="396.5" width="374" height="79"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Core Data">
@@ -108,7 +122,7 @@
                             <constraint firstItem="BRt-tj-jy8" firstAttribute="top" secondItem="HqE-xC-bnq" secondAttribute="bottom" id="KoD-vL-bOZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BRt-tj-jy8" secondAttribute="trailing" constant="20" id="NqB-ha-LB2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BRt-tj-jy8" secondAttribute="bottom" id="kKM-Uo-hVX"/>
-                            <constraint firstItem="HqE-xC-bnq" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2/5" id="wjl-Qc-g5e"/>
+                            <constraint firstItem="HqE-xC-bnq" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1/3" id="wjl-Qc-g5e"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HqE-xC-bnq" secondAttribute="trailing" id="xfB-ex-w4g"/>
                         </constraints>
                     </view>

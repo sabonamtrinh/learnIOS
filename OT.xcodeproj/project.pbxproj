@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA96BAD1B8688B4624927A8C /* Pods_OT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF2751392A87D82069ADD5B /* Pods_OT.framework */; };
 		CE559E5426AE915A00361C38 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E5226AE915A00361C38 /* EmployeeTableViewCell.swift */; };
 		CE559E5526AE915A00361C38 /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE559E5326AE915A00361C38 /* EmployeeTableViewCell.xib */; };
 		CE559E5826AE9A9500361C38 /* DepartmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E5626AE9A9500361C38 /* DepartmentTableViewCell.swift */; };
@@ -14,6 +15,8 @@
 		CE559E5C26AE9BF000361C38 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E5A26AE9BF000361C38 /* EmployeeViewController.swift */; };
 		CE559E5D26AE9BF000361C38 /* EmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE559E5B26AE9BF000361C38 /* EmployeeViewController.xib */; };
 		CE559E5F26AEB1FF00361C38 /* NSDate+Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E5E26AEB1FF00361C38 /* NSDate+Extesion.swift */; };
+		CE559E6326B125E900361C38 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE559E6126B125E800361C38 /* NotificationViewController.swift */; };
+		CE559E6426B125E900361C38 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE559E6226B125E800361C38 /* NotificationViewController.xib */; };
 		CE5A535A2673C28300DB4964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A53592673C28300DB4964 /* AppDelegate.swift */; };
 		CE5A535C2673C28300DB4964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A535B2673C28300DB4964 /* SceneDelegate.swift */; };
 		CE5A535E2673C28300DB4964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A535D2673C28300DB4964 /* ViewController.swift */; };
@@ -22,6 +25,7 @@
 		CE5A53662673C28700DB4964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5A53642673C28700DB4964 /* LaunchScreen.storyboard */; };
 		CE5A536F2673C3D500DB4964 /* ScreenBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A536D2673C3D500DB4964 /* ScreenBViewController.swift */; };
 		CE5A53702673C3D500DB4964 /* ScreenBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5A536E2673C3D500DB4964 /* ScreenBViewController.xib */; };
+		CE61A78026CE58F0003E8035 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61A77F26CE58F0003E8035 /* APIError.swift */; };
 		CE697E3E26A566E600782A96 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E3C26A566E600782A96 /* LearnViewController.swift */; };
 		CE697E3F26A566E600782A96 /* LearnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697E3D26A566E600782A96 /* LearnViewController.xib */; };
 		CE697E4226A6B94D00782A96 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697E4126A6B94D00782A96 /* ProfileModel.swift */; };
@@ -54,9 +58,16 @@
 		CE697EBB26AE6B8700782A96 /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EB526AE6B8700782A96 /* Department+CoreDataProperties.swift */; };
 		CE697EBF26AE6C5500782A96 /* DemoCoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE697EBD26AE6C5500782A96 /* DemoCoreDataViewController.swift */; };
 		CE697EC026AE6C5500782A96 /* DemoCoreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE697EBE26AE6C5500782A96 /* DemoCoreDataViewController.xib */; };
+		CE927AD326CE05050001269B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927AD126CE05050001269B /* RegisterViewController.swift */; };
+		CE927AD426CE05050001269B /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE927AD226CE05050001269B /* RegisterViewController.xib */; };
+		CE927AD826CE0AA10001269B /* ChangeAvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE927AD626CE0AA10001269B /* ChangeAvatarViewController.swift */; };
+		CE927AD926CE0AA10001269B /* ChangeAvatarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE927AD726CE0AA10001269B /* ChangeAvatarViewController.xib */; };
+		CEB99F1B26CE17C9008E98F7 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB99F1A26CE17C9008E98F7 /* RegisterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5349472F212D0A5E9E2257EC /* Pods-OT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OT.release.xcconfig"; path = "Target Support Files/Pods-OT/Pods-OT.release.xcconfig"; sourceTree = "<group>"; };
+		662E591139867E33219A7EF1 /* Pods-OT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OT.debug.xcconfig"; path = "Target Support Files/Pods-OT/Pods-OT.debug.xcconfig"; sourceTree = "<group>"; };
 		CE559E5226AE915A00361C38 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
 		CE559E5326AE915A00361C38 /* EmployeeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTableViewCell.xib; sourceTree = "<group>"; };
 		CE559E5626AE9A9500361C38 /* DepartmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentTableViewCell.swift; sourceTree = "<group>"; };
@@ -64,6 +75,8 @@
 		CE559E5A26AE9BF000361C38 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
 		CE559E5B26AE9BF000361C38 /* EmployeeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeViewController.xib; sourceTree = "<group>"; };
 		CE559E5E26AEB1FF00361C38 /* NSDate+Extesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate+Extesion.swift"; sourceTree = "<group>"; };
+		CE559E6126B125E800361C38 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CE559E6226B125E800361C38 /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
 		CE5A53562673C28300DB4964 /* OT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5A53592673C28300DB4964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5A535B2673C28300DB4964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +88,9 @@
 		CE5A536D2673C3D500DB4964 /* ScreenBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBViewController.swift; sourceTree = "<group>"; };
 		CE5A536E2673C3D500DB4964 /* ScreenBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenBViewController.xib; sourceTree = "<group>"; };
 		CE5A537226751B3300DB4964 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CE61A77F26CE58F0003E8035 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		CE61A78126CE696D003E8035 /* TransformingOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CE61A78226CEA381003E8035 /* CombiningOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombiningOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE697E3C26A566E600782A96 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		CE697E3D26A566E600782A96 /* LearnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LearnViewController.xib; sourceTree = "<group>"; };
 		CE697E4126A6B94D00782A96 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
@@ -107,6 +123,13 @@
 		CE697EB526AE6B8700782A96 /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CE697EBD26AE6C5500782A96 /* DemoCoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCoreDataViewController.swift; sourceTree = "<group>"; };
 		CE697EBE26AE6C5500782A96 /* DemoCoreDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCoreDataViewController.xib; sourceTree = "<group>"; };
+		CE8A3B7226CD012C0095C9EC /* Basic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Basic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CE927AD126CE05050001269B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CE927AD226CE05050001269B /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		CE927AD626CE0AA10001269B /* ChangeAvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAvatarViewController.swift; sourceTree = "<group>"; };
+		CE927AD726CE0AA10001269B /* ChangeAvatarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeAvatarViewController.xib; sourceTree = "<group>"; };
+		CEB99F1A26CE17C9008E98F7 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		EFF2751392A87D82069ADD5B /* Pods_OT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +137,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA96BAD1B8688B4624927A8C /* Pods_OT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D76ED967845C66611412305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				662E591139867E33219A7EF1 /* Pods-OT.debug.xcconfig */,
+				5349472F212D0A5E9E2257EC /* Pods-OT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE559E5126AE913B00361C38 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,11 +164,22 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		CE559E6026B125B900361C38 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CE559E6126B125E800361C38 /* NotificationViewController.swift */,
+				CE559E6226B125E800361C38 /* NotificationViewController.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
 		CE5A534D2673C28300DB4964 = {
 			isa = PBXGroup;
 			children = (
 				CE5A53582673C28300DB4964 /* OT */,
 				CE5A53572673C28300DB4964 /* Products */,
+				6D76ED967845C66611412305 /* Pods */,
+				E58292EEBD547F9F0FCBB568 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +194,8 @@
 		CE5A53582673C28300DB4964 /* OT */ = {
 			isa = PBXGroup;
 			children = (
+				CE8A3B7126CD01180095C9EC /* RxSwift */,
+				CE559E6026B125B900361C38 /* Notification */,
 				CE697EAC26AE685A00782A96 /* ExampleCoreData */,
 				CE697E7226A87AA000782A96 /* CollectionView */,
 				CE697E4026A6B92A00782A96 /* MultipleCellTypes_TableView */,
@@ -264,6 +310,46 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		CE8A3B7126CD01180095C9EC /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CE927AD526CE0A900001269B /* ChangeAvatar */,
+				CE927AD026CE04E40001269B /* Register */,
+				CE8A3B7226CD012C0095C9EC /* Basic.playground */,
+				CEB99F1A26CE17C9008E98F7 /* RegisterModel.swift */,
+				CE61A77F26CE58F0003E8035 /* APIError.swift */,
+				CE61A78126CE696D003E8035 /* TransformingOperators.playground */,
+				CE61A78226CEA381003E8035 /* CombiningOperators.playground */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		CE927AD026CE04E40001269B /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				CE927AD126CE05050001269B /* RegisterViewController.swift */,
+				CE927AD226CE05050001269B /* RegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		CE927AD526CE0A900001269B /* ChangeAvatar */ = {
+			isa = PBXGroup;
+			children = (
+				CE927AD626CE0AA10001269B /* ChangeAvatarViewController.swift */,
+				CE927AD726CE0AA10001269B /* ChangeAvatarViewController.xib */,
+			);
+			path = ChangeAvatar;
+			sourceTree = "<group>";
+		};
+		E58292EEBD547F9F0FCBB568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF2751392A87D82069ADD5B /* Pods_OT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE5A536A2673C28700DB4964 /* Build configuration list for PBXNativeTarget "OT" */;
 			buildPhases = (
+				0D728F64E5BED344E906807F /* [CP] Check Pods Manifest.lock */,
 				CE5A53522673C28300DB4964 /* Sources */,
 				CE5A53532673C28300DB4964 /* Frameworks */,
 				CE5A53542673C28300DB4964 /* Resources */,
+				E748EF449305EA1534A9442D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,13 +411,16 @@
 			files = (
 				CE5A53662673C28700DB4964 /* LaunchScreen.storyboard in Resources */,
 				CE697E4926A6BE9D00782A96 /* ServerData.json in Resources */,
+				CE927AD426CE05050001269B /* RegisterViewController.xib in Resources */,
 				CE5A53632673C28700DB4964 /* Assets.xcassets in Resources */,
 				CE559E5926AE9A9500361C38 /* DepartmentTableViewCell.xib in Resources */,
 				CE697E3F26A566E600782A96 /* LearnViewController.xib in Resources */,
+				CE559E6426B125E900361C38 /* NotificationViewController.xib in Resources */,
 				CE559E5526AE915A00361C38 /* EmployeeTableViewCell.xib in Resources */,
 				CE697E4626A6B9AC00782A96 /* TableMultipleCellTypesViewController.xib in Resources */,
 				CE697E5426A6C1D700782A96 /* NamePictureTableViewCell.xib in Resources */,
 				CE697EC026AE6C5500782A96 /* DemoCoreDataViewController.xib in Resources */,
+				CE927AD926CE0AA10001269B /* ChangeAvatarViewController.xib in Resources */,
 				CE697E6626A6C24700782A96 /* AttributeTableViewCell.xib in Resources */,
 				CE697E7A26A8868500782A96 /* PictureCollectionViewCell.xib in Resources */,
 				CE697E7626A87AED00782A96 /* SimpleCVViewController.xib in Resources */,
@@ -345,6 +436,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D728F64E5BED344E906807F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E748EF449305EA1534A9442D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OT/Pods-OT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OT/Pods-OT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OT/Pods-OT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE5A53522673C28300DB4964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -354,6 +487,7 @@
 				CE559E5F26AEB1FF00361C38 /* NSDate+Extesion.swift in Sources */,
 				CE559E5C26AE9BF000361C38 /* EmployeeViewController.swift in Sources */,
 				CE697E7E26A9162600782A96 /* HeaderCollectionReusableView.swift in Sources */,
+				CEB99F1B26CE17C9008E98F7 /* RegisterModel.swift in Sources */,
 				CE697EB626AE6B8700782A96 /* Employee+CoreDataClass.swift in Sources */,
 				CE559E5426AE915A00361C38 /* EmployeeTableViewCell.swift in Sources */,
 				CE697E3E26A566E600782A96 /* LearnViewController.swift in Sources */,
@@ -369,15 +503,19 @@
 				CE697EBF26AE6C5500782A96 /* DemoCoreDataViewController.swift in Sources */,
 				CE5A535C2673C28300DB4964 /* SceneDelegate.swift in Sources */,
 				CE697EB826AE6B8700782A96 /* Person+CoreDataClass.swift in Sources */,
+				CE927AD826CE0AA10001269B /* ChangeAvatarViewController.swift in Sources */,
 				CE697E4526A6B9AC00782A96 /* TableMultipleCellTypesViewController.swift in Sources */,
 				CE697EB926AE6B8700782A96 /* Person+CoreDataProperties.swift in Sources */,
+				CE927AD326CE05050001269B /* RegisterViewController.swift in Sources */,
 				CE697E5726A6C20000782A96 /* FriendTableViewCell.swift in Sources */,
 				CE697E6926A6D98800782A96 /* AboutTableViewCell.swift in Sources */,
 				CE697E4B26A6BF6100782A96 /* ProfileViewModel.swift in Sources */,
 				CE697E7926A8868500782A96 /* PictureCollectionViewCell.swift in Sources */,
 				CE697E6526A6C24700782A96 /* AttributeTableViewCell.swift in Sources */,
+				CE559E6326B125E900361C38 /* NotificationViewController.swift in Sources */,
 				CE697EBB26AE6B8700782A96 /* Department+CoreDataProperties.swift in Sources */,
 				CE5A536F2673C3D500DB4964 /* ScreenBViewController.swift in Sources */,
+				CE61A78026CE58F0003E8035 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +659,7 @@
 		};
 		CE5A536B2673C28700DB4964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662E591139867E33219A7EF1 /* Pods-OT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -540,6 +679,7 @@
 		};
 		CE5A536C2673C28700DB4964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5349472F212D0A5E9E2257EC /* Pods-OT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

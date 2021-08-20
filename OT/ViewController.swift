@@ -60,5 +60,11 @@ class ViewController: UIViewController {
         let screen = DemoCoreDataViewController()
         self.navigationController?.pushViewController(screen, animated: true)
     }
+    
+    @IBAction func handleRxSwiftButton(_ sender: Any) {
+        let screen = RegisterViewController()
+        self.navigationController?.pushViewController(screen, animated: true)
+    }
+    
 }
 
